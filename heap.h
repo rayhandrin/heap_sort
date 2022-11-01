@@ -22,14 +22,14 @@ typedef struct TreeNode
 
 void menuHeapSort();
 void deleteBinaryTree(TreeAddr root);
-TreeAddr CreateNodeHeap(int X);
 void SwapValue(TreeAddr a, TreeAddr b);
 void inorder(TreeAddr root);
 void heapify(TreeAddr node);
-TreeAddr BuildMaxHeap(List *L);
+void HeapSort(List L_data);
 int height(TreeAddr root);
+TreeAddr CreateNodeHeap(int X);
+TreeAddr BuildMaxHeap(List *L);
 TreeAddr getLastNodeAndItsParent(TreeAddr root, int level, TreeAddr parent);
 TreeAddr getLastNode(TreeAddr root);
-void HeapSort(List L_data);
 
 #endif
